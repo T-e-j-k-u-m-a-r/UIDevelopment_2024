@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 200vh;
+}
+
+.container {
+    background: rgba(142, 12, 12, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+h1
+{
+    color: dodgerblue;
+}

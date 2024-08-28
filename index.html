@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project PlayGround</h1>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <div id="content" class="hidden">
+        <h2 id="welcomeMessage"></h2>
+        <p>Logged in at: <span id="loginTime"></span></p>
+        <ul id="linksList"></ul>
+    </div>
+    <footer>
+        <p>© 2024 Your Company</p>
+        <p><a href="https://github.com/T-e-j-k-u-m-a-r">GitHub</a> | <a href="https://www.linkedin.com/in/tejkumargk/">LinkedIn</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
